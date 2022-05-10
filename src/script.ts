@@ -15,10 +15,6 @@ formNode.addEventListener('submit', (e) => {
 	const total = calcLadder(step, from, to);
 	formOutputNode.value = String(total);
 
-	console.log(1);
-
-
-
 });
 
 function calcLadder(step: number, from: number, to: number): number {
@@ -28,6 +24,7 @@ function calcLadder(step: number, from: number, to: number): number {
 	}
 
 	let total = 0;
+
 	for (let count = from; count <= to; count += step) {
 		total += count;
 	}
