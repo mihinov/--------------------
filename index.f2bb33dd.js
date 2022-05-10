@@ -1,2 +1,0 @@
-const e=document.querySelector("#input-step"),t=document.querySelector("#input-from"),u=document.querySelector("#input-to"),r=document.querySelector("#form"),o=document.querySelector("#form-output");r.addEventListener("submit",(r=>{r.preventDefault();const n=function(e,t,u){if(e<1)return 0;let r=0;for(let o=t;o<=u;o+=e)r+=o;return r}(e.valueAsNumber,t.valueAsNumber,u.valueAsNumber);o.value=String(n),console.log(1)}));
-//# sourceMappingURL=index.f2bb33dd.js.map
